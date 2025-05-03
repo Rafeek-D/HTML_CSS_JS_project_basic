@@ -1,1 +1,1 @@
-# redi_project_basic
+# HTML_CSS_JS_project_basic
