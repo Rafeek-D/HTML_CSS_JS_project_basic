@@ -1,0 +1,213 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(222, 181, 120);
+}
+
+#welcome{
+    background-color: aqua;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    padding: 40px;
+    margin:0%;
+    size: 10px;
+}
+/*
+-------------
+#welcome {
+   
+    border-radius: 40%; ------ Makes it a circle 
+    animation: rotateAround 6s linear forwards; ------- Animation applied here 
+    transform-origin: center; --------- Makes it rotate around its center 
+  }
+  
+  @keyframes rotateAround {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+-------------
+
+*/
+
+.navclass .navul {
+  
+
+  padding:0%;
+  margin: 0%;
+  display: flex;
+  overflow: hidden;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+
+  
+}
+
+.navul a{
+  
+  font-size: 2em;
+  display: inline;
+  color: rgb(213, 25, 141);
+
+  
+  padding: 0.5em 1em;
+  border-right: 3px solid #999;
+}
+
+.basket{
+  /*
+  margin-right: 2em;
+  margin-left: 100em;
+  display: flex;
+  margin-right: auto;
+  */
+
+  float: right;
+  padding-left: 70%;
+  
+  display: flex;
+  
+}
+.countenerclass{
+  
+  display: inline;
+  font-size: 2em;
+  padding-right: 1em;
+  padding-top: 0.2em;
+  margin-right: auto;
+ 
+ 
+
+}
+
+
+.imags{
+
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    background-color: brown;
+    margin-top: 3px;
+
+}
+.image{
+  
+    width: 50%;
+    margin: 20px;
+    margin-left: 10%;
+    display: inline;
+    margin-right: auto;
+    
+    
+}
+
+
+/*
+-------------
+*/
+.image {
+   
+    border-radius: 40%; /* Makes it a circle */
+    animation: rotateAround 1.5s linear forwards; /* Animation applied here for 1.5 secound */
+    transform-origin: center; /* Makes it rotate around its center */
+  }
+  
+  @keyframes rotateAround {
+    0% {
+      transform: rotate(0deg); /* Start at 0 degrees */
+    }
+
+    /*
+
+    40% {
+      transform: rotate(0deg); --- Pause at 0 degrees for 2 seconds 
+    }
+      */
+
+    100% {
+      transform: rotate(360deg); /* Rotate 360 degrees in the last 3 seconds */
+    }
+  }
+
+
+/*
+--------------
+*/
+
+
+
+#image_sh{
+ text-align: center;
+ margin-right: 20%;
+}
+
+
+#image_mlukhiye{
+    text-align: center;
+    margin-right: 30%;
+   }
+
+#button_sh{
+    border-radius: 40px;
+    font-size: 20px;
+    background-color:rgb(40, 215, 107);
+    margin-right: 20px;
+    position: relative;
+    left: 35%;
+}
+#button_mlukhiye{
+    border-radius: 40px;
+    font-size: 20px;
+    background-color:rgb(40, 215, 107);
+    margin-right: 20px;
+    position: relative;
+    left: 30%;
+
+}
+
+
+
+#button_mlukhiye:hover{
+
+    font-size: 23px;
+    color: rgb(36, 15, 228);
+}
+
+
+
+    
+#content_mlukhiye_list{
+    color: rgb(124, 59, 231);
+    font-size: 30px;
+}
+
+#content_mlukhiye_list li::marker{
+
+    content: "✅";
+    font-size: 1em;
+
+}
+
+#content_shawarma_list{
+    color: rgb(59, 19, 124);
+    font-size: 30px;
+}
+   
+ 
+#content_shawarma_list li::marker{
+
+    content: "✅";
+    font-size: 1em;
+    
+}
+
+
+
