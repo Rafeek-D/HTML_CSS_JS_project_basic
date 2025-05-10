@@ -1,6 +1,6 @@
 # HTML_CSS_JS_project_basic
 
-##Welcome to Rafeek's dish Web:
+## Welcome to Rafeek's dish Web:
 > Project as  beginner at the fild of Webdevops
 
 ## the project containts 3 folder:
