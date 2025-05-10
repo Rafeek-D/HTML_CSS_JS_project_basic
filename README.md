@@ -14,8 +14,8 @@
 ### 3) test_compi
 > containts the test situations, where i testing many thing for the end.
 
-
-$${ \color{green}i \space  let \space the \space two \space folder, \space that \space i \space can \space after \space that \space know,\space what \space i \space do \space it \sapace and \space how.}$$ 
+###
+- $${ \color{green}i \space  let \space the \space two \space folder, \space that \space i \space can \space after \space that \space know,\space what \space i \space do \space it \space and \space how.}$$ 
 
 
 '#0969DA'
