@@ -15,7 +15,7 @@
 > containts the test situations, where i testing many thing for the end.
 
 
-$${ \color{green}i let the two folder, that i can after that know, what i do it and how.}$$ 
+$${ \color{green}i \space  let \space the \space two \space folder, \space that \space i \space can \space after \space that \space know,\space what \space i \space do \space it \sapace and \space how.}$$ 
 
 
 '#0969DA'
