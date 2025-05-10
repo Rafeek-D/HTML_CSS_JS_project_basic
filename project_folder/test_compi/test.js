@@ -121,6 +121,13 @@ function tethidden1_show2(){
     for(let item of body_hid2){
         item.style.display = 'none';
     }
+
+    const vis_div_body2= document.getElementsByClassName("div_body2");
+
+    for(let item of vis_div_body2){
+        item.style.display = "unset";
+    }
+    //vis_div_body2.style.visibility= "visible";
 }
 
 

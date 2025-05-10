@@ -11,6 +11,10 @@
   background-color: rgb(222, 181, 120);
 }
 
+.div_body2{
+  display: none;
+}
+
 #teswelcome{
     background-color: aqua;
     text-align: center;
