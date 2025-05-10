@@ -10,10 +10,23 @@ function incrementthelist_sh(){
     basketlist.push("Shawarma");
     console.log(basketlist);
     console.log("you bayed Shawarma");
+    localStorage.setItem(count,"");
+    //let test_num1 = localStorage.setItem(document.getElementById('countenerid').textContent, "");
+
+    //let test_num2 =  localStorage.setItem(count,"");
+    //let test_num3 = localStorage.getItem(count);
+    //const test_num4= localStorage.getItem(count)
+
+    //localStorage.setItem(count,"dd");
+    //const test_num5= localStorage.getItem("dd");
 
     document.getElementById('countenerid').textContent=count;
+    //console.log(localStorage.getItem(test_num4));
 
 }
+
+//localStorage.setItem(count,"");
+//const test_num5= localStorage.getItem(count);
 
 function incrementthelist_m(){
     count++;
@@ -23,6 +36,7 @@ function incrementthelist_m(){
     console.log("you bayed Mlukhiye");
     console.log(basketlist);
     document.getElementById('countenerid').textContent=count;
+    
 
 }
 
@@ -100,9 +114,9 @@ class Person{
 //----make instanze person:
 let customer= new Person(
 
-    document.getElementById("name").textContent,
-    document.getElementById("adress").textContent,
-    document.getElementById("mail").textContent
+    //document.getElementById("name").textContent,
+    //document.getElementById("adress").textContent,
+    //document.getElementById("mail").textContent
 
 )
 

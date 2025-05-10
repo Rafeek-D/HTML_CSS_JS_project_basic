@@ -1,0 +1,455 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+      background-color: rgb(222, 181, 120);
+  }
+  
+  #welcome{
+      background-color: aqua;
+      text-align: center;
+      font-style: italic;
+      font-size: 50px;
+      padding: 40px;
+      margin:0%;
+      size: 10px;
+  }
+  /*
+  -------------
+  #welcome {
+     
+      border-radius: 40%; ------ Makes it a circle 
+      animation: rotateAround 6s linear forwards; ------- Animation applied here 
+      transform-origin: center; --------- Makes it rotate around its center 
+    }
+    
+    @keyframes rotateAround {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  
+  -------------
+  
+  */
+  
+  .navclass .navul {
+    
+  
+    padding:0%;
+    margin: 0%;
+    
+    overflow: hidden;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    
+  
+    
+  }
+  
+  .navul a {
+    
+    font-size: 2em;
+    display: inline;
+    color: rgb(213, 25, 141);
+  
+    
+    padding: 0.5em 1em;
+    border-right: 3px solid #999;
+  }
+  
+  .navul .basket_link{
+    border-right: none;
+    align-items: center;
+    
+  }
+  
+  .basket{
+    /*
+    margin-right: 2em;
+    margin-left: 100em;
+    display: flex;
+    margin-right: auto;
+    */
+  
+   
+    justify-content: flex-end;
+    
+    float: right;
+    
+    
+  }
+  
+  .basket_link{
+    
+    display: inline-flex;
+    
+   
+  
+  }
+  
+  
+  .countenerclass{
+    font-size: 2em;
+    
+    /*
+    padding-right: 0.3em;
+    padding-top: 1em;
+    */
+   
+  }
+
+
+  .countenerclass_body2{
+    font-size: 2em;
+    
+    /*
+    padding-right: 0.3em;
+    padding-top: 1em;
+    */
+   
+  }
+  
+  
+  .imags{
+  
+      display:flex;
+      justify-content: center;
+      
+      background-color: brown;
+      
+  
+  }
+  .image{
+    
+      width: 50%;
+      margin: 20px;
+      margin-left: 10%;
+      display: inline;
+      margin-right: auto;
+      
+      
+  }
+  
+  
+  /*
+  -------------
+  */
+  .image {
+     
+      border-radius: 40%; /* Makes it a circle */
+      animation: rotateAround 1.5s linear forwards; /* Animation applied here for 1.5 secound */
+      transform-origin: center; /* Makes it rotate around its center */
+    }
+    
+    @keyframes rotateAround {
+      0% {
+        transform: rotate(0deg); /* Start at 0 degrees */
+      }
+  
+      /*
+  
+      40% {
+        transform: rotate(0deg); --- Pause at 0 degrees for 2 seconds 
+      }
+        */
+  
+      100% {
+        transform: rotate(360deg); /* Rotate 360 degrees in the last 3 seconds */
+      }
+    }
+  
+  
+  /*
+  --------------
+  */
+  
+  
+  
+  #image_sh{
+   text-align: center;
+   margin-right: 20%;
+  }
+  
+  
+  #image_mlukhiye{
+      text-align: center;
+      margin-right: 30%;
+     }
+  
+  #button_sh{
+      border-radius: 40px;
+      font-size: 20px;
+      background-color:rgb(40, 215, 107);
+      margin-right: 20px;
+      position: relative;
+      left: 35%;
+  }
+  #button_mlukhiye{
+      border-radius: 40px;
+      font-size: 20px;
+      background-color:rgb(40, 215, 107);
+      margin-right: 20px;
+      position: relative;
+      left: 30%;
+  
+  }
+  
+  
+  
+  #button_mlukhiye:hover{
+  
+      font-size: 23px;
+      color: rgb(36, 15, 228);
+  }
+  
+  
+  
+      
+  #content_mlukhiye_list{
+      color: rgb(124, 59, 231);
+      font-size: 30px;
+  }
+  
+  #content_mlukhiye_list li::marker{
+  
+      content: "✅";
+      font-size: 1em;
+  
+  }
+  
+  #content_shawarma_list{
+      color: rgb(59, 19, 124);
+      font-size: 30px;
+  }
+     
+   
+  #content_shawarma_list li::marker{
+  
+      content: "✅";
+      font-size: 1em;
+      
+  }
+  
+  
+  /*----------------------------------------for over_view-------------------------------------------------- */
+  
+  .countenerclass_body3{
+    font-size: 2em;
+    
+    
+    /*
+    padding-right: 0.3em;
+    padding-top: 1em;
+    */
+   
+  }
+  
+  
+  
+  
+  .bay_contain{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,1fr);
+  
+    grid-area: 
+    
+    "bay_contain_shnum"
+    "bay_contain_munum"
+    "bay_now"
+    
+    ;
+  }
+  
+  .bay_contain_shnum{
+    display:flex;
+    padding: 1em;
+    
+  }
+  
+  .bay_contain_shnum * :not(h2){
+    display: inline;
+    padding-left: 2em;
+  }
+  
+  .bay_contain_munum{
+    display:flex;
+    padding: 1em;
+    
+  }
+  
+  .bay_contain_munum * :not(h2){
+    display: inline;
+    padding-left: 2em;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  #bay_now{
+    border-radius: 40px;
+    font-size: 20px;
+    background-color:rgb(40, 215, 107);
+    margin-right: 20px;
+    position: relative;
+    left: 30%;
+  
+  }
+  
+  
+  
+  #bay_now:hover{
+  
+    font-size: 23px;
+    color: rgb(36, 15, 228);
+  }
+  
+  
+  /*----------------------------------------for form-------------------------------------------------- */
+  
+  
+  
+  
+  .form_body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+  }
+  
+  .form_body form{
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+  }
+  
+  .form_body h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  
+  .form_body {
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+  }
+  
+  }
+  
+  
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+  
+  .form_body button {
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+  
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+  }
+  
+  .number {
+    background-color: #5fcf80;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+  }
+  
+
+
+   /*----------------------------------------for together file-------------------------------------------------- */
+
+   .div_body2{
+    display: none;
+   }
+
+
+   .div_body3{
+    display: none;
+   }
+   .div_body4{
+    display: none;
+   }
+
+   .div_body5{
+    display: none;
+   }
+
+   .div_body6{
+    display: none;
+   }
+

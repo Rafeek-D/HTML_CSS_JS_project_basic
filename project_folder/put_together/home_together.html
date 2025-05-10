@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Rafeek's dish Web</title>
+    <link rel="stylesheet" href="styles_together.css">
+    <link rel="icon" type="image/png" href="num1.png">
+    <script src="script_together.js"></script>
+</head>
+<body>
+
+<div id="div_body1" class="div_body1">
+
+
+
+    
+    <h1 id="welcome">welcome to Rafeek's dish</h1>
+
+    <nav class="navclass">
+
+        <ul class="navul">
+            <li>
+                <a href="javascript:showonlyhome()">Home</a>
+                <a href="javascript:showonlyabout()">About</a>
+            </li>
+            
+             <div class="basket">
+                <span class="countenerclass" id="countenerid">0</span>
+
+
+                <a href="javascript:showonlyoverview()" id="basket_link" class="basket_link" >
+                    <img src="basket.png" id="basket" alt="basket" width="100px" height="60px" >
+                </a>
+                
+
+             </div>
+            
+           
+
+        </ul>
+
+    </nav>
+    
+    
+    <div class="imags">
+
+        <div class="image">
+            <img src="mlukhiye.png" id="syrian-mlukhiye" alt="syrian-mlukhiye" width="600px" height="600px" >
+            <h2 id="image_mlukhiye">Syrian Mlukhiye</h2>
+
+                
+                <a title="bay-mlukhiye">
+
+                    <button id="button_mlukhiye" onclick="incrementthelist_m()">
+                        bay now
+        
+                    </button>
+                </a> 
+
+    
+        </div>
+
+        <div class="image">
+            <img src="shawarma.png" alt="shawarma" width="600px" height="600px">
+            <h2 id="image_sh">Syrian Shawarma</h2>
+            
+            <a title="bay-shawarma">
+
+                <button id="button_sh" onclick="incrementthelist_sh()">
+                    bay now
+    
+                </button>
+            </a>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<!-------------------------------------------------------end body1 home-------------------------------------------------------------------------------->
+
+
+
+<!-------------------------------------------------------body2 about-------------------------------------------------------------------------------->
+<div id="div_body2" class="div_body2">
+
+    <h1 id="welcome">welcome to Rafeek's dish</h1>
+
+    <nav class="navclass">
+
+        <ul class="navul">
+            <li>
+                <a href="javascript:showonlyhome()">Home</a>
+                <a href="javascript:showonlyabout()">About</a>
+            </li>
+            
+             <div class="basket">
+                <span class="countenerclass_body2" id="countenerid_body2">0
+            
+                </span>
+
+
+                <a href="javascript:showonlyoverview()" id="basket_link" class="basket_link">
+                    <img src="basket.png" id="basket" alt="basket" width="100px" height="60px" >
+                </a>
+                
+                
+
+             </div>
+            
+        </ul>
+
+    </nav>
+    
+    
+    <hr > <br> <hr>
+    
+    <section class="content-mlukhiye" id="content-mlukhiye" >
+
+        <h1 id="content-mlukhiye">Mlukhiye</h1>
+        <h2> <u> Ingredients:</u></h2>
+        <ul id="content_mlukhiye_list">
+            <li>
+                1.52 handfuls of vegetables (mlouchiya, mushy peas) 
+            </li>
+            <li>
+                1.26 garlic cloves (yes, it has to be that much)
+            </li>
+            <li>
+                0.25 chicken, ready to cook
+
+            </li>
+            <li>
+                0.51 chili pepper(s), 1 green, 1 red
+
+            </li>
+            <li>
+                0.25 tbsp salt
+            </li>
+            <li>
+                0.25 tbsp spice mix (7Bharat, available in every arabic store)
+            </li>
+            <li>
+                0.25 handful of coriander leaves
+            </li>
+            <li>
+                0.51 bay leaves
+            </li>
+            <li>
+                oil
+            </li>
+            <li>
+                A little lemon juice
+            </li>
+            
+        </ul>
+
+
+        <h2> <u> Recipe:</u></h2>
+        <ol style="font-size: 30px;">
+            <li>
+
+                pay a chicken.  
+            </li>
+            <li>
+                pay rice
+            </li>
+            <li>
+                pay (mlouchiya, mushy greens)
+            </li>
+            <li>
+                pay the rest of the ingredients and coock it
+            </li>
+
+
+        </ol>
+
+        <hr>
+
+
+    </section>
+
+
+    <section class="content-shawarma" id="content-shawarma">
+
+        <h1 id="content-shawarma">shawarma</h1>
+
+        <h2> <u> Ingredients:</u></h2>
+
+        <ul id="content_shawarma_list">
+            <li>
+                olive oil  
+            </li>
+            <li>
+                freshly squeezed lemon juice
+            </li>
+            <li>
+                onion
+
+            </li>
+            <li>
+                garlic cloves
+
+            </li>
+            <li>
+                chicken thighs and/or, chicken breast 
+            </li>
+        </ul>
+
+
+        <h2> <u> Recipe:</u></h2>
+        <ol style="font-size: 30px;">
+            <li>
+                go to restaurant 
+            </li>
+            <li>
+                order a Shawarma
+            </li>
+            <li>
+              eat it and enjoy it
+            </li>
+        </ol>
+        
+
+
+    </section>
+
+
+</div>
+
+
+<!-------------------------------------------------------end body2-------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------body3 over_view-------------------------------------------------------------------------------->
+<div id="div_body3" class="div_body3">
+
+    <h1 id="welcome">welcome to Rafeek's dish</h1>
+
+    <nav class="navclass">
+
+        <ul class="navul">
+            <li>
+                <a href="javascript:showonlyhome()">Home</a>
+                <a href="javascript:showonlyabout()">About</a>
+            </li>
+            
+             <div class="basket">
+
+                <span class="countenerclass_body3" id="countenerid_body3" >
+                </span>
+
+                <a href="javascript:showonlyoverwiew()" id="basket_link" class="basket_link">
+                    <img src="basket.png" id="basket" alt="basket" width="100px" height="60px" >
+                </a>
+                
+
+             </div>
+            
+        </ul>
+
+    </nav>
+    
+    <hr > <br> <hr>
+
+    <main>
+
+        <div class="bay_contain">
+
+            <div class="bay_contain_shnum">
+
+                <h2>
+                    Syrian Shawarma: 
+                </h2>
+
+                    <p id="sh_num_web" style="font-size:1.5em; padding-left: 2em;"></p>
+                    <script>
+                        show_bay_count_sh();
+                        
+                    </script>
+            </div>
+
+            <div class="bay_contain_munum">
+
+                <h2>
+                    Syrian Mlukhiye
+                </h2>
+                <p id="mu_num_web" style="font-size:1.5em; padding-left: 3em;"></p>
+                <script>
+                    show_bay_count_mu();
+                    
+                </script>
+
+            </div>
+
+            <a title="bay-now" href="javascript:showonlyform()">
+
+                <button id="bay_now">
+                    bay now
+                </button>
+            </a> 
+
+
+        </div>
+
+    </main>
+
+
+
+</div>
+
+
+
+
+
+<!-------------------------------------------------------end body3 over_view-------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------body4 form-------------------------------------------------------------------------------->
+
+<div id="div_body4" class="div_body4">
+
+    <h1 id="welcome">welcome to Rafeek's dish</h1>
+
+    <nav class="navclass">
+
+        <ul class="navul">
+            <li>
+                <a href="javascript:showonlyhome()">Home</a>
+                <a href="javascript:showonlyabout()">About</a>
+            </li>
+            
+             <div class="basket">
+                <span class="countenerclass" id="countenerid_body4"></span>
+
+
+                <a href="javascript:showonlyoverwiew()" id="basket_link" class="basket_link">
+                    <img src="basket.png" id="basket" alt="basket" width="100px" height="60px" >
+                </a>
+
+                
+             </div>
+            
+             <br><br><br><br><br>
+             <hr><hr>
+        <main>
+            
+
+            <!-------------------- for form------------------------------------------->
+            <div class="form_body">
+                
+                <div class="row">
+                  <div class="col-md-12">
+                    <form action="/index.json" method="post">
+                      <h1> Bay now </h1>
+                      
+                      <fieldset>
+                        
+                        <legend><span class="number">1</span> Your Basic Info</legend>
+                      
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                      
+                        <label for="email">Email:</label>
+                        <input type="email" id="mail" name="user_email">
+                     
+
+
+                        <!-------------------- -----------------------------
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="user_password">
+                      
+                      
+                        <label>Age:</label>
+                        <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Under 13</label><br>
+                        <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Over 13</label>
+                        -->
+
+
+                      </fieldset>
+                      <fieldset>  
+                      
+                        <legend><span class="number">2</span> Your Profile</legend>
+                        
+
+
+                        <!-------------------- -----------------------------
+                       <label for="bio">Bio</label>
+                        <textarea id="bio" name="user_bio"></textarea>
+                      -->
+
+                      <label for="adress">Adress</label>
+                        <textarea id="adress" name="user_adress"></textarea>
+                      
+                     
+                        <!-------------------- -----------------------------
+                      
+                       <label for="job">Job Role:</label>
+                        <select id="job" name="user_job">
+                          <optgroup label="Web">
+                            <option value="frontend_developer">Front-End Developer</option>
+                            <option value="php_developer">PHP Developer</option>
+                            <option value="python_developer">Python Developer</option>
+                            <option value="rails_developer">Rails Developer</option>
+                            <option value="web_designer">Web Designer</option>
+                            <option value="wordpress_developer">Wordpress Developer</option>
+                          </optgroup>
+                          <optgroup label="Mobile">
+                            <option value="android_developer">Android Developer</option>
+                            <option value="ios_developer">IOS Developer</option>
+                            <option value="mobile_designer">Mobile Designer</option>
+                          </optgroup>
+                          <optgroup label="Business">
+                            <option value="business_owner">Business Owner</option>
+                            <option value="freelancer">Freelancer</option>
+                          </optgroup>
+                        </select>
+                        
+                        <label>Interests:</label>
+                        <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Development</label><br>
+                        <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label><br>
+                        <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label>
+
+                        -------------->
+
+                        
+                       </fieldset> 
+                     
+                      <button type="submit">Bay now</button>
+
+                      
+
+                      
+                     </form>
+                      </div>
+                    </div>
+                    
+                 
+
+
+            </div>
+
+
+
+        </main>
+
+        </ul>
+
+    </nav>
+    
+    <hr > <br> <hr>
+
+
+</div>
+
+
+<!-------------------------------------------------------end body4 form-------------------------------------------------------------------------------->
+
+
+
+<!-------------------------------------------------------------body5 pay-form--------------------------------------------------------------------->
+
+
+<div id="div_body5" class="div_body5">
+
+    <h1 id="welcome">welcome to Rafeek's dish</h1>
+
+    <nav class="navclass">
+
+        <ul class="navul">
+            <li>
+                <a href="javascript:showonlyhome()">Home</a>
+                <a href="javascript:showonlyabout()">About</a>
+            </li>
+            
+             <div class="basket">
+                <span class="countenerclass" id="countenerid_body5">0</span>
+
+
+                <a href="javascript:showonlyoverwiew()" id="basket_link" class="basket_link">
+                    <img src="basket.png" id="basket" alt="basket" width="100px" height="60px" >
+                </a>
+
+                
+             </div>
+            
+             <br><br><br><br><br>
+             <hr><hr>
+        <main>
+            
+
+            <!-------------------- for form------------------------------------------->
+            <div class="form_body">
+                
+                <div class="row">
+                  <div class="col-md-12">
+
+                    <form  id="formbody5">
+                      <h1> Pay now </h1>
+                      
+                      <fieldset>
+                        
+                        <legend><span class="number">1</span> Your Basic Info</legend>
+                      
+                        <label for="name">Name:</label>
+                        <input type="text" id="idname" name="user_name">
+                      
+                        <label for="email">Email:</label>
+                        <input type="email" id="idmail" name="user_email">
+
+                     
+
+
+                        <!-------------------- -----------------------------
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="user_password">
+                      
+                      
+                        <label>Age:</label>
+                        <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Under 13</label><br>
+                        <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Over 13</label>
+                        -->
+
+
+                      </fieldset>
+                      <fieldset>  
+                    
+            
+                        <legend><span class="number">2</span> Your Profile</legend>
+                        
+
+                        <!-------------------- -----------------------------
+                       <label for="bio">Bio</label>
+                        <textarea id="bio" name="user_bio"></textarea>
+                      -->
+
+                      <label for="adress">Adress</label>
+                        <textarea id="idadress" name="user_adress"></textarea>
+                      
+                     
+                        <!-------------------- -----------------------------
+                      
+                       <label for="job">Job Role:</label>
+                        <select id="job" name="user_job">
+                          <optgroup label="Web">
+                            <option value="frontend_developer">Front-End Developer</option>
+                            <option value="php_developer">PHP Developer</option>
+                            <option value="python_developer">Python Developer</option>
+                            <option value="rails_developer">Rails Developer</option>
+                            <option value="web_designer">Web Designer</option>
+                            <option value="wordpress_developer">Wordpress Developer</option>
+                          </optgroup>
+                          <optgroup label="Mobile">
+                            <option value="android_developer">Android Developer</option>
+                            <option value="ios_developer">IOS Developer</option>
+                            <option value="mobile_designer">Mobile Designer</option>
+                          </optgroup>
+                          <optgroup label="Business">
+                            <option value="business_owner">Business Owner</option>
+                            <option value="freelancer">Freelancer</option>
+                          </optgroup>
+                        </select>
+                        
+                        <label>Interests:</label>
+                        <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Development</label><br>
+                        <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label><br>
+                        <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label>
+
+                        -------------->
+
+                        
+                       </fieldset> 
+              
+                       
+                     </form>
+
+                     <button  onclick="event_handling()">Pay now</button>
+                     
+                      </div>
+
+                    </div>
+                
+            </div>
+
+
+
+        </main>
+
+        </ul>
+
+    </nav>
+    
+    <hr > <br> <hr>
+
+
+</div>
+
+
+
+    
+
+<!-------------------------------------------------------end body5 form-------------------------------------------------------------------------------->
+
+
+
+<!----------------------------------------------------------------body6 after pay------------------------------------------------------------------------------------------>
+
+
+<div id="div_body6" class="div_body6">
+
+    <h1 id="welcome">welcome to Rafeek's dish</h1>
+
+    <nav class="navclass">
+
+        <ul class="navul">
+            <li>
+                <a href="home_together.html">Home</a>
+                <a href="javascript:showonlyabout()">About</a>
+            </li>
+            
+             <div class="basket">
+                <span class="countenerclass" id="countenerid_body6"></span>
+
+
+                <a href="javascript:showonlyoverwiew()" id="basket_link" class="basket_link">
+                    <img src="basket.png" id="basket" alt="basket" width="100px" height="60px" >
+                </a>
+
+                
+             </div>
+            
+             <br><br><br><br><br> 
+             <hr><hr>
+        <main>
+            
+            <!-------------------- for form------------------------------------------->
+            <div class="your_order" id="yourorder">
+
+            <div class="form_body">
+                
+                <div class="row">
+                  <div class="col-md-12">
+
+                    <form id="formbody6" class="formbody6">
+                      <h1 id="yourorder_h1"> Your Order </h1>
+                      <hr>
+                     
+                      <fieldset> 
+
+                       </fieldset> 
+
+                        <div id="yourorder_h3_1" >
+
+                        <h3 id= "yourorder_h3_listsh">you bayed Shawarma: 0</h3>
+                        <h3 id= "yourorder_h3_listmu">you bayed Mlukhiye: 0</h3>
+                        <h3 id= "yourorder_h3_name"></h3>
+                        <h3 id= "yourorder_h3_adress"></h3>
+                        <h3 id= "yourorder_h3_mail"></h3>
+                        
+                        </div>
+                        
+
+    
+
+                       
+
+                      
+                     
+                    <!---
+                      <button type="submit">Bay now</button>
+                    -->
+
+                     </form>
+                      </div>
+                    </div>
+        
+            </div>
+
+            </div>
+
+
+
+        </main>
+
+        </ul>
+
+    </nav>
+    
+    <hr > <br> <hr>
+
+
+</div>
+
+
+<!-------------------------------------------------------end body6 after pay------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
